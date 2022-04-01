@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         dialog = builder.create();
     }
 
-    /* Here I make addcard() method */
+    /* Here I make addCard() method */
     private void addCard(String name) {
         View view = getLayoutInflater().inflate(R.layout.card, null);
 
